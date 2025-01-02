@@ -1,0 +1,42 @@
+body {
+    background-color: #e0d7f2; /* Light pastel purple */
+    color: #4b3c6e; /* Darker pastel purple for text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d0e1f9; /* Light pastel blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #a7c6ed; /* Slightly darker pastel blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8ab8e0; /* Darker pastel blue on hover */
+}
