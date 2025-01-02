@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintyy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #d1b3ff, #99ccff);
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            position: relative;
+        }
+
+        .avatar {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color: #34495e;
+            padding: 0 10px;
+        }
+
+        p a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        p a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .lang-switcher {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+             cursor: pointer;
+            color: #fff;
+           padding: 5px 10px;
+           border: 1px solid #fff;
+           border-radius: 5px;
+           background-color: rgba(0,0,0,0.2);
+           transition: background-color 0.3s ease;
+        }
+
+         .lang-switcher:hover {
+            background-color: rgba(0,0,0,0.4);
+        }
+
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 40px;
+                max-width: 700px;
+            }
+
+            .avatar {
+                left: 20px;
+                transform: translateX(0);
+                width: 100px;
+                height: 100px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+                line-height: 1.6;
+                padding: 0;
+            }
+             .lang-switcher {
+                 top: 20px;
+                 right: 20px;
+            }
+        }
+
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 900px;
+                padding: 60px;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .container {
+                max-width: 1100px;
+                padding: 80px;
+            }
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="avatar">
+        <img src="https://cdn.discordapp.com/avatars/1038106295485595659/f87e92b9413975a65534dd4255a84676.png?size=512" alt="Avatar">
+    </div>
+    <h1>Vintyy</h1>
+    <p id="bioText">
+        Hey there! I’m Vintyy, a blue fox who enjoys meeting new friends and diving into creative projects. I tend to talk a lot when given the chance, so don't hesitate to strike up a conversation! I'm often up late, pondering the mysteries of the universe or working on something cool. Whether you're into art, code, or just good vibes, I'm happy to share the journey with you. Feel free to explore my other corners of the internet: You can find me on <a href="https://bsky.app/profile/vintyy.bsky.social" target="_blank">BlueSky</a>, tweeting my thoughts on <a href="https://x.com/vulpawed" target="_blank">Twitter</a>, sharing my adventures on <a href="https://www.youtube.com/channel/UCFNE2yQ4D460PoYbx1v9HRQ" target="_blank">YouTube</a>, and curating some sweet tunes on <a href="https://open.spotify.com/user/31satylanvqershxfvbh4vncgjoa?si=ff76ee2cd2514682" target="_blank">Spotify</a>. Oh, and if you're wondering about my musical taste, let's just say I'm a big fan of Linkin Park!
+    </p>
+
+
+</script>
+</body>
+</html>
